@@ -1,0 +1,78 @@
+<%- include("partials/header.ejs"); -%>
+   
+
+    <body class="bg1">
+        <div class="container1">
+    
+    
+    <div class="container2">
+        <script src="anime.min.js"></script>
+    
+    
+        <script>
+            const container2 = document.querySelector('.container2')
+            for (var i = 0 ; i <= 7; i++){
+                const blocks = document.createElement('div');
+                blocks.classList.add('block');
+                container2.appendChild(blocks);
+            }
+            function animateBlocks(){
+                anime({
+                    targets: '.block',
+                    translateX: function(){
+                        return anime.random(-700,700);
+                    },
+                    translateY: function(){
+                        return anime.random(-100,100);
+                    },
+                    scale: function(){
+                        return anime.random(5,5);
+                    },
+                    easing:'linear',
+                    duration:3000,
+                    delay:anime.stagger(5),
+                    complete:animateBlocks
+                    
+                })
+            }
+            animateBlocks()
+
+        </script>
+    </div>
+    
+    
+    
+    
+    <h3>Hello</h3>
+    <h3>! am</h3>
+    <h2>Bharath</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<%- include("partials/footer"); -%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

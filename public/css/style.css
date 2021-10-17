@@ -1,0 +1,260 @@
+h2
+{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 25vh;
+    color:#fff;
+    font-size: 10vw;
+    line-height: 160%;
+    margin-bottom: 4vh;
+    z-index: 500;
+    font-weight: 100px;
+    letter-spacing: 0.1em;
+    font-family: 'Montserrat', sans-serif;;
+    
+    
+}
+
+h3
+{
+    position: relative;
+    overflow: hidden;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    font-size: 5vh;
+    margin-top: 60px;
+    line-height: 160%;
+    font-weight: 800px;
+    letter-spacing: 0.1em;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 4vh;
+     
+}
+
+h4
+{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    margin-left: 10px;
+    margin-top: 10px;
+
+    font-weight: 900px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 160%;
+    font-size: 50px;
+    margin-bottom: 4vh;
+
+}
+h5
+{
+    
+    color:#fff;
+    margin-left: 3%;
+    font-size: 2.0vw;
+    font-weight: 800px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 160%;
+    font-size: 24px;
+    margin-bottom: 4vh;
+
+}
+h6
+{
+    
+    color:#fff;
+    margin-left: 15px;
+    font-size: 1.5vw;
+    line-height: 1.6em;
+    letter-spacing: 0.1em;
+    font-family: 'Cormorant Garamond', serif;
+    line-height: 150%;
+    font-size: 24px;
+    margin-bottom: 4vh;
+
+}
+
+h4.text-color-white
+{
+  width: 50%;
+  margin-top: 30px;  
+  line-height: normal;
+}
+
+p.size-small {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    margin-left: 14%;
+   
+}
+
+.links a {
+    display: block;
+    line-height: 1.8em;
+    font-family: "Medium";
+    font-size: 25px;
+    width: 50%;
+    margin-left: 42%;
+}
+
+a.text-color-red, a.text-color-red:after, a.text-color-red:visited {
+    color: #ea0f1e;
+}
+.on-hover-40, .on-hover--40 {
+    transition: all .4s cubic-bezier(0.2, 0.6, 0.2, 1);
+    
+}
+.hover:hover
+{
+    background-color: white;
+}
+.text-color-red {
+    color: #ea0f1e;  
+    margin-left: 26%;
+    font-size: x-large;
+
+}
+a, a:after, a:visited {
+    text-decoration: none;
+    cursor: pointer;
+    color: #000000;
+}
+
+
+
+.bg1
+{
+    background-color:black;
+}
+.margin
+{
+    width: 50%;
+    margin: auto;
+}
+.font
+{
+    margin-top: 5px;
+}
+
+.block
+{
+    position: absolute;
+    border-radius: 50%;
+    margin-left :50%;
+    margin-top: 22%;
+    width: 20px;
+    height: 20px;
+    background: #e80202;
+    box-shadow: 3px 3px 1px #323232;
+    
+    
+    
+
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-family: consolas;
+    
+    
+    
+}
+
+
+    
+
+.navbar-nav  li a:hover {
+    
+    color:red !important;
+    background: #ff0000;
+    box-shadow: 0 0 10px #ff0000, 0 0 40px #ff0000, 0 0 80px #ff0000;
+}
+.navbar-head
+{
+    color: red;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+   
+
+.footer-padding {
+	padding-bottom:100px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+    
+	
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+    color:red;
+    
+}
+
+.bg
+{
+    background-color: black;
+    
+}
+
+img
+{
+    position: relative;
+    margin-left: 6%;
+    margin-top: 13px;
+    border-radius: 20%;
+}
+.contact
+{
+    
+    display: block;
+    margin: 4vh 0;
+    font-family: "Medium";
+    font-size: 19px;
+
+}
+.btn
+{
+    margin-left: 80%;
+    
+}
+.btn:hover{
+    background-color: #ff0000;
+}
+.border
+{
+    border: 2px dashed 
+    #fff; 
+    width: 95%; 
+    margin: auto; 
+    margin-top: 5%; 
+    margin-bottom: 5%;
+}
+
